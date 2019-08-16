@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    
+    
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(29, 141, 95);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .name {
+    
+    display: inline;
+    color: red ;
+    height: 50px;
+    font-size: 50px;
+    
+  }

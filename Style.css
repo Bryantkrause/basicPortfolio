@@ -1,18 +1,24 @@
 
 ul {
+    vertical-align: top; 
+    top: o;
     float: right ;
     right: 0
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0;   
   }
   
   li {
-    display: inline;
     
+    height: 25 px ;
+    display: inline;
+    border: blue ;
+    margin: 0;
+    padding: 0;
   }
 
   h1{
-    
+    background: darkcyan
     display: inline;
   }
