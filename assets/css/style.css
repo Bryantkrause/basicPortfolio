@@ -1,16 +1,15 @@
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightgray;
-    
-    
+    background-color:lightgrey ;
   }
   
   li {
     float: right;
-    
+    margin-right: .05% ;
   }
   
   li a {
@@ -18,7 +17,7 @@ ul {
     color: rgb(29, 141, 95);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none; 
   }
   
   li a:hover {
@@ -26,10 +25,22 @@ ul {
   }
 
   .name {
-    
+    margin-left: 7.5%;
     display: inline;
-    color: red ;
+    color: rgb(255, 255, 255) ;
     height: 50px;
     font-size: 50px;
-    
+    background-color: rgb(101, 168, 194);
+  }
+ 
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey ;
+    border-top: cyan ;
+    border-width: 5px;
+    border-style: solid;
+    height: 56px;
   }
