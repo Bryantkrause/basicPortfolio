@@ -44,3 +44,14 @@ ul {
     border-style: solid;
     height: 56px;
   }
+
+  .bigBox{
+    margin: auto ;
+    margin-top: 2.5%;
+    width: 60%;
+    height: 700px;
+    padding: 10px;
+    background-color: lightgrey ;
+    margin-bottom: 10%;
+
+  }
